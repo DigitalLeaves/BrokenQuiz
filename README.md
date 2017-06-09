@@ -1,5 +1,5 @@
 # BrokenQuiz
-A broken app built to illustrate the debug tutorial found at https://digitalleaves.com/?page_id=2656&amp;preview=true
+A broken app built to illustrate the debug tutorial found at https://digitalleaves.com/debug-ios-apps-xcode-ii-lets-debug/
 
 # Description
 
