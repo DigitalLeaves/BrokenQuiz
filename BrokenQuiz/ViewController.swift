@@ -44,9 +44,9 @@ class ViewController: UIViewController {
     func checkQuiz(_ response: String) {
         // first, parse the response string as an int
         
-        // BUG 2. Parsing an integer will return nil if the string is not a number.
+        // BUG 1. Parsing an integer will return nil if the string is not a number.
         let responseAsNumber = Int(response)!
-        /* SOLUTION 2. Check that the answer is actually a number
+        /* SOLUTION 1. Check that the answer is actually a number
         guard let responseAsNumber = Int(response) else {
             quizLabel.text = "Sorry, that was not even a number! 😱"
             checkResponseButton.setTitle("Play again!", for: .normal)
